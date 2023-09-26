@@ -46,6 +46,12 @@ public class Main {
         }
         System.out.println();
 
-
+        System.out.println("Задача 8");
+        int savings = 0;
+        for (int month = 1; month <= 12; month++) {
+            savings += 29000;
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + savings + " рублей");
+        }
+        System.out.println();
     }
 }
