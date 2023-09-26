@@ -34,6 +34,12 @@ public class Main {
         }
         System.out.println();
 
+        System.out.println("Задача 6");
+        for (int n = 7; n <= 98; n += 7) {
+            System.out.println(n);
+        }
+        System.out.println();
+
 
     }
 }
