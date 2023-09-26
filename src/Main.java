@@ -40,6 +40,12 @@ public class Main {
         }
         System.out.println();
 
+        System.out.println("Задача 7");
+        for (int n = 1; n <= 512; n *= 2) {
+            System.out.println(n);
+        }
+        System.out.println();
+
 
     }
 }
