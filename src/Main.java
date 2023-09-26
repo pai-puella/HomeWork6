@@ -53,5 +53,19 @@ public class Main {
             System.out.println("Месяц " + month + ", сумма накоплений равна " + savings + " рублей");
         }
         System.out.println();
+
+        System.out.println("Задача 9");
+        double savings1 = 0;
+        for (int month = 1; month <= 12; month++) {
+            savings1 += 29000;
+            double interest = savings1 * 0.01;
+            savings1 += interest;
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + savings1 + " рублей");
+        }
+        System.out.println();
+
+        System.out.println("Задача 10");
+
+        System.out.println();
     }
 }
