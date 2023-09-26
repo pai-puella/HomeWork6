@@ -11,5 +11,13 @@ public class Main {
             System.out.println(i);
         }
         System.out.println();
+
+        System.out.println("Задача 3");
+        for (int i = 2; i <= 17; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
+        }
+        System.out.println();
     }
 }
