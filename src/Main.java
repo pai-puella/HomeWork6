@@ -65,7 +65,9 @@ public class Main {
         System.out.println();
 
         System.out.println("Задача 10");
-
-        System.out.println();
+        for (int i = 1; i <= 10; i++) {
+            int result = 2 * i;
+            System.out.println("2*" + i + "=" + result);
+        }
     }
 }
